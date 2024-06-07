@@ -32,7 +32,7 @@ The dataset includes various features related to customer demographics, account 
 * Churn: The target variable indicating whether the customer churned.
 ### Exploratory Data Analysis (EDA)
 Distribution of Churn
-![]("C:\Users\amutu\OneDrive\Desktop\Moringa\Dsc-Phase-3-Project\output.png")
+![Churn](C:\Users\amutu\OneDrive\Desktop\Moringa\Dsc-Phase-3-Project\output.png)
 The dataset shows an imbalance in the target variable, with fewer customers churning compared to those who do not.
 ### Univariate Analysis
 ![Distribution of Numerical Features]("C:\Users\amutu\OneDrive\Desktop\Moringa\Dsc-Phase-3-Project\output.png")
@@ -77,7 +77,7 @@ The Hyperparameter-tuned Random Forest model demonstrated the best performance w
 * High Precision and Recall for Non-Churn: The model performs exceptionally well in predicting non-churning customers, with very high precision (0.94) and recall (0.99).
 * Improved Performance for Churn: The precision for predicting churn is very high (0.93), meaning the model makes very few false positive errors. However, the recall (0.63) is still somewhat limited, indicating that some churning customers are not being identified.
 * Balanced Metrics: The F1-scores and weighted averages suggest the model has a good balance of precision and recall for both classes, indicating robust overall performance.
-####For this KNN model, we can deduce that:
+#### For this KNN model, we can deduce that:
 * High Recall for Non-Churn: The model performs very well in predicting non-churning customers, with high precision (0.85) and very high recall (0.99).
 * Poor Performance for Churn: The model struggles significantly with predicting churning customers, with very low precision (0.44) and extremely low recall (0.04). This results in a very low F1-score (0.07) for the churn class.
 * Imbalance Impact: The performance metrics indicate that the model is heavily biased towards the majority class (non-churning customers) and performs poorly on the minority class (churning customers).
